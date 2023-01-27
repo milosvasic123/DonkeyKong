@@ -32,16 +32,16 @@ class Menu(QMainWindow):
         self.label2Player = QLabel(self)
         self.twoplayer = QPixmap('images\\DvaIgraca.png')
 
-        self.labelTournament = QLabel(self) #ovo sam dodao
-        self.tournament = QPixmap('images\\tournament.png') #ovo sam dodao
+        self.labelTournament = QLabel(self)
+        self.tournament = QPixmap('images\\tournament.png')
 
-        self.labelHighScore = QLabel(self)  # ovo sam dodao
-        self.high_score = QPixmap('images\\highscore.png')  # ovo sam dodao
+        self.labelHighScore = QLabel(self)
+        self.high_score = QPixmap('images\\highscore.png')
 
-        self.labelQuit = QLabel(self)  # ovo sam dodao
-        self.quit = QPixmap('images\\quit.jpeg')  # ovo sam dodao
+        self.labelQuit = QLabel(self)
+        self.quit = QPixmap('images\\quit.jpeg')
 
-        self.e1 = QLineEdit(self) #ovo sam dodao
+        self.e1 = QLineEdit(self) 
         self.e2 = QLineEdit(self)
 
         self.left = 200

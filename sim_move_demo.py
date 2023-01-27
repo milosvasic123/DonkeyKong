@@ -6,7 +6,7 @@ from PyQt5.QtGui import QPixmap, QImage, QPalette, QBrush
 from PyQt5.QtWidgets import QWidget, QLabel, QApplication, QMainWindow
 from GorilaMovement import GorilaMovement
 from JasminMovement import JasminMovement
-from pomocniFajl import isHit, generateBarrel, GorilaFreezeProcess
+from helper import isHit, generateBarrel, GorilaFreezeProcess
 from multiprocessing import Queue, Process
 from BarrelMovement import BarrelMovement
 from random import randint
