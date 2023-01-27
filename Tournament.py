@@ -19,13 +19,13 @@ class Tournament(QMainWindow):
         self.menu = menu
         self.setStyleSheet("background: black;")
 
-        self.e1 = QLineEdit(self)  # ovo sam dodao
+        self.e1 = QLineEdit(self)
         self.e2 = QLineEdit(self)
-        self.e3 = QLineEdit(self)  # ovo sam dodao
+        self.e3 = QLineEdit(self)
         self.e4 = QLineEdit(self)
 
-        self.labelTournament = QLabel(self)  # ovo sam dodao
-        self.tournament = QPixmap('images\\tournament.png')  # ovo sam dodao
+        self.labelTournament = QLabel(self)
+        self.tournament = QPixmap('images\\tournament.png')
 
         self.left = 200
         self.top = 100
